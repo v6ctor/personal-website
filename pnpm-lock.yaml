@@ -41,9 +41,6 @@ importers:
       '@react-three/rapier':
         specifier: ^2.1.0
         version: 2.1.0(@react-three/fiber@9.3.0(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.167.1))(react@19.1.0)(three@0.167.1)
-      '@tailwindcss/typography':
-        specifier: ^0.5.16
-        version: git+https://git@github.com:tailwindcss/typography.git#25051fbfd7c7058708233b1b4c6280f039e5855d(tailwindcss@4.1.11)
       '@types/canvas-confetti':
         specifier: ^1.9.0
         version: 1.9.0
@@ -120,6 +117,9 @@ importers:
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.11
+      '@tailwindcss/typography':
+        specifier: ^0.5.16
+        version: 0.5.16(tailwindcss@4.1.11)
       '@types/node':
         specifier: ^20
         version: 20.19.9
@@ -2150,9 +2150,8 @@ packages:
   '@tailwindcss/postcss@4.1.11':
     resolution: {integrity: sha512-q/EAIIpF6WpLhKEuQSEVMZNMIY8KhWoAemZ9eylNAih9jxMGAYPPWBn3I9QL/2jZ+e7OEz/tZkX5HwbBR4HohA==}
 
-  '@tailwindcss/typography@git+https://git@github.com:tailwindcss/typography.git#25051fbfd7c7058708233b1b4c6280f039e5855d':
-    resolution: {commit: 25051fbfd7c7058708233b1b4c6280f039e5855d, repo: git@github.com:tailwindcss/typography.git, type: git}
-    version: 0.5.16
+  '@tailwindcss/typography@0.5.16':
+    resolution: {integrity: sha512-0wDLwCVF5V3x3b1SGXPCDcdsbDHMBe+lkFzBRaHeLvNi+nrrnZ1lA18u+OTWO8iSWU2GxUOCvlXtDuqftc1oiA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
 
@@ -7245,7 +7244,7 @@ snapshots:
       postcss: 8.5.6
       tailwindcss: 4.1.11
 
-  '@tailwindcss/typography@git+https://git@github.com:tailwindcss/typography.git#25051fbfd7c7058708233b1b4c6280f039e5855d(tailwindcss@4.1.11)':
+  '@tailwindcss/typography@0.5.16(tailwindcss@4.1.11)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
