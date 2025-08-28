@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import { MagicCard } from "./magicui/magic-card";
 import {
   Card,
-  CardDescription,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 
 import { useTheme } from "next-themes";

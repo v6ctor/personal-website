@@ -1,6 +1,5 @@
 "use client";
 
-import { AuroraText } from "@/components/magicui/aurora-text";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import Experience from "@/components/experience/experience-grid";
