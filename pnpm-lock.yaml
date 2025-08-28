@@ -42,7 +42,7 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(@react-three/fiber@9.3.0(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.167.1))(react@19.1.0)(three@0.167.1)
       '@tailwindcss/typography':
-        specifier: github:tailwindcss/typography
+        specifier: ^0.5.16
         version: git+https://git@github.com:tailwindcss/typography.git#25051fbfd7c7058708233b1b4c6280f039e5855d(tailwindcss@4.1.11)
       '@types/canvas-confetti':
         specifier: ^1.9.0
