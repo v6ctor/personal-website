@@ -21,11 +21,11 @@ const DATA = {
 
 &nbsp;
 
-**A little more about myself**: I'm a first-gen college grad from Oaxaca, Mexico, raised in Inglewood, California. Growing up as a DACA recipient taught me how to adapt and problem-solve—skills that now fuel my work as a developer.
+**A little more about myself**: I'm a first-gen college grad from Oaxaca, Mexico, raised in Inglewood, California. Growing up as a DACA recipient taught me the importance of perseverance and resourcefulness -- skills that now fuel my work as a developer trying to leave the world a better place than I found it.
 
 &nbsp;
 
-Outside of code, I'm a horror movie enthusiast. Check out my Letterboxd in the dock below! I also enjoy cooking and love to cooking tutorials on YouTube.`
+Outside of code, I'm a horror movie enthusiast. Check out my Letterboxd in the dock below! I also enjoy cooking and love watching cooking tutorials on YouTube.`
 }
 
 export default function Homepage() {
