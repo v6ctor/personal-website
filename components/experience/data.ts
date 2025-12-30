@@ -4,10 +4,10 @@ const experience = [
         "job-title": "Founder and Discord Community Manager",
         "job-description": 
             ["Drove ~$180,000 in revenue and 100–600% ROI for clients by combining market analysis, automated purchasing tools (Python, Golang),\
-            and subscription-based strategies.",
-            "Maintained 100% client retention and 5-star ratings across 50+ reviews.",
+            and subscription-based strategies",
+            "Maintained 100% client retention and 5-star ratings across 50+ reviews",
             "Grew brand visibility through content and community management on Twitter, Instagram, and Discord, generating\
-            450K+ interactions and 15K followers."],
+            450K+ interactions and 15K followers"],
         "job-period": "August 2022 - Present",
         "job-alt-text": "TCG Dungeon",
         "job-image": "https://i.imgur.com/RcDE7gc.png",
@@ -15,12 +15,11 @@ const experience = [
     },
     {
         "job-category": "Swarthmore College Information Technology",
-        "job-title": "Helpdesk Student Associate",
-        "job-description": 
-            ["Developed strong troubleshooting skills in Mac and Windows operating systems while delivering in-person and remote support for\
-            a variety of devices and services, including hardware, software, and networking issues resolving 200+ tickets.",
-            "Improved equipment accessibility and functionality for campus faculty and staff by assisting in setup,\
-            managing inventory, and updating device firmware and software"],
+        "job-title": "Information Technology Support Specialist",
+        "job-description":
+            ["Resolved 200+ hardware, software, and networking issues across Mac and Windows systems by providing in-person and remote IT support for students, staff, and faculty",
+            "Improved device accessibility and performance for faculty and staff by streamlining equipment setup, inventory management, and firmware/software updates",
+            "Ensured reliable campus-wide technology operations by maintaining computers, classroom systems, and over 20 networked printers"],
         "job-period": "August 2024 - May 2025",
         "job-alt-text": "Swarthmore ITSA",
         "job-image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJ2eiq72zPc9zwi5H_8gOwc54KkFyfZCXJg&s",
@@ -39,7 +38,7 @@ const experience = [
     {
         "job-category": "Swarthmore College Mathematics Department",
         "job-title": "Single-Variable Calculus II Teacher Assistant",
-        "job-description": ["Provided constructive feedback on student homework to support learning and understanding, offering thoughtful guidance through comments and grading."],
+        "job-description": ["Provided constructive feedback on student homework to support learning and understanding, offering thoughtful guidance through comments and grading"],
         "job-period": "August 2024 - May 2025",
         "job-alt-text": "",
         "job-image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJ2eiq72zPc9zwi5H_8gOwc54KkFyfZCXJg&s",
@@ -50,7 +49,7 @@ const experience = [
         "job-title": "Summer Research Assistant",
         "job-description": 
             ["Built a generative art algorithm with JavaScript and Node.js that transforms user inputs into dynamic artworks influenced by\
-            real-time climate data and weather phenomena hosted on AlgoArt.org."],
+            real-time climate data and weather phenomena hosted on AlgoArt.org"],
         "job-period": "May 2024 - August 2024",
         "job-alt-text": "Collisions Artwork",
         "job-image": "https://algoart.org/output/alg15/image/final/alg15_1741044653768_389133.png",
@@ -60,8 +59,8 @@ const experience = [
         "job-category": "Crumb Cafe",
         "job-title": "Cashier & Prep Cook",
         "job-description": ["Enhanced customer experience and increased daily engagement by designing daily menu boards and delivering personalized,\
-            thoughtful service, remembering guest preferences, and fostering a welcoming atmosphere.",
-            "Boosted kitchen efficiency during peak hours by 30% by proactively prepping ingredients and supporting back-of-house operations with attention to safety and quality."],
+            thoughtful service, remembering guest preferences, and fostering a welcoming atmosphere",
+            "Boosted kitchen efficiency during peak hours by 30% by proactively prepping ingredients and supporting back-of-house operations with attention to safety and quality"],
         "job-period": "August 2023 - May 2024",
         "job-alt-text": "Crumb Cafe",
         "job-image": "https://i.imgur.com/YwVeUI5.png",

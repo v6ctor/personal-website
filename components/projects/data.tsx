@@ -14,13 +14,26 @@ const GitHub = {
 
 const projects = [
     {
-        "project-title":"Automated Checkout Software",
+        "project-title":"Sonar: TCG Analytics Dashboard",
+        "project-href":"https://sonarsolutions.app/",
+        "project-dates":"2024 - Present",
+        "project-stack":["Next.js","TypeScript","Tailwind CSS","PostgreSQL"],
+        "project-description":"Built a **real-time analytics dashboard** for TCG Dungeon members to track checkouts, orders, and shipment statuses. Features include **product performance tracking**, order history with delivery status monitoring, and a **global leaderboard** ranking top performers. Designed to give collectors actionable insights and improve purchasing decisions.",
+        "project-link":"https://sonarsolutions.app/",
+        "project-links": [{
+            "icon": <CircleArrowOutUpRight />,
+            "type": "Website",
+            "href": "https://sonarsolutions.app/",
+        }],
+        "project-image":"/12-28-sonar-update.PNG",
+        "project-video":"",
+    },
+    {
+        "project-title":"Automated E-commerce Checkout Software",
         "project-href":"",
-        "project-dates":"June 2022 - August 2023",
-        "project-stack":["Python","Selenium","Chromium Web Driver","Discord Webhooks"],
-        "project-description":"I developed a multi-threaded Python CLI to automate the checkout process and secure **$67k in highly sought out goods in seconds**.\
-        It continuously scrapes a catalog of products, handles adding to cart and submitting customer information, and triggers a Discord Webhook on success or failure.\
-        It currently **supports Shopify, Stripe, PayPal, WooCommerce, Big Cartel, and Sqaurespace payment processors**.",
+        "project-dates":"August 2021 - December 2022",
+        "project-stack":["Python","Golang","Discord Webhooks"],
+        "project-description":"Developed a multi-threaded Python CLI automation tool that streamlined the checkout process across **Shopify, Stripe, PayPal, WooCommerce, Big Cartel, and Squarespace APIs**, securing **$67K+ in high-demand goods within seconds**. Engineered a real-time product catalog scraper with integrated cart management, reducing manual checkout time from 1-2 minutes to 5 seconds. Also built an inventory tracking system using **Golang goroutines** to monitor product availability and notify clients via Discord webhooks.",
         "project-link":"",
         "project-links": [{
             "icon": <FolderLock/>,
@@ -50,12 +63,11 @@ const projects = [
 
     },
         {
-        "project-title":"Google reCaptcha v2 AI Solver",
+        "project-title":"YOLO-Based Image Recognition for Google reCaptcha v2",
         "project-href":"",
-        "project-dates":"March 2025 - Present",
-        "project-stack":["Python","ReactJS","Selenium","PyTorch"],
-        "project-description":"Implemented and trained a custom YOLO model designed to detect crosswalks, chimneys, and stairs to **solve Google reCaptcha v2 challenges**,\
-        a popular anti-bot service, for my **Machine Learning** final project. Curently integrating the model with a **user-friendly chrome extension** that automatically solves these challenges when detected.",
+        "project-dates":"March 2025 - June 2025",
+        "project-stack":["Python","PyTorch","Golang","Next.js","Git"],
+        "project-description":"Built a scalable **Golang backend** and a **Next.js interface** to automate solving Google reCaptcha v2 challenges, implementing load-balanced task queues, caching, and RESTful APIs for distributed processing. Trained and deployed a **YOLO-based PyTorch model** on labeled reCaptcha v2 datasets to perform accurate multi-class object detection, achieving significant gains in automation reliability.",
         "project-link":"",
         "project-links": [{
             "icon": <GitHub.icon />,
@@ -82,39 +94,20 @@ const projects = [
         "project-video":"",
     },
     {
-        "project-title":"SCCS Class Planner",
+        "project-title":"Swat Course Planner",
         "project-href":"https://plan.sccs.swarthmore.edu/",
-        "project-dates":"August 2024 - May 2025",
-        "project-stack":["TypeScript","Tailwind CSS","NextUI","Golang","MariaDB","Figma","Docker"],
-        "project-description":"Designed the **UI/UX** for our club&#39;s course schedule platform **used by Swarthmore students**, and\
-            developed a Golang-based data collection script that **leveraged a security loophole to bypass authentication, reducing\
-            scraping time from 2 minutes to just 7 seconds**.",
+        "project-dates":"August 2023 - May 2025",
+        "project-stack":["Python","Golang","React","PostgreSQL","Docker","Git"],
+        "project-description":"Developed a full-stack course planning platform serving **500+ users** with Next.js, NextUI, and Tailwind CSS, integrating a Golang backend and PostgreSQL to replace browser cookies for improved reliability and scalability. Optimized data ingestion by developing a concurrent **Golang web scraper using goroutines**, reducing data-fetching time from 2 minutes to 20 seconds. Led a small engineering team through agile sprints, overseeing design in Figma and implementation of responsive, accessible UI components.",
         "project-link":"https://i.imgur.com/FKLbkyN.png",
         "project-links": [{
             "icon": <CircleArrowOutUpRight />,
             "type": "Website",
-            "href": "",
+            "href": "https://plan.sccs.swarthmore.edu/",
         }],
         "project-image":"https://i.imgur.com/FKLbkyN.png",
         "project-video":"",
     },
-    {
-        "project-title":"AlgoArt: Algorithmically Generated Art",
-        "project-href":"https://algoart.org/",
-        "project-dates":"May 2024 - August 2024",
-        "project-stack":["JavaScript","Node.js"],
-        "project-description":"As a Summer 2024 research intern with Swarthmore College&#39;s Computer Science Department,\
-        I worked with **Professor Michael Wehar** to design a JavaScript canvas algorithm that generates **art** from weather data mapped to geographic coordinates.",
-        "project-link":"",
-        "project-links": [{
-            "icon": <GitHub.icon />,
-            "type": "GitHub",
-            "href": "",
-        }],
-        "project-image":"https://cdn.discordapp.com/attachments/834085852685533248/1405742991288832121/ezgif-5-8915be043e.gif?ex=689fefae&is=689e9e2e&hm=62b6c41445da7b4d014950435501d09dc9e364d60483c63246f05e84966d96e3&",
-        "project-video":"",
-    },
-
-]
+    ]
 
 export default projects

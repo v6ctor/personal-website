@@ -8,7 +8,7 @@ const BLUR_FADE_DELAY = 0.04
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 w-max-[800px] mx-auto">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mx-auto">
       {projects.map((project, index) => (
         <BlurFade key={index} delay={BLUR_FADE_DELAY * 12 + index * 0.05}>
           <ProjectCard key={index}

@@ -28,7 +28,6 @@ const slugs = [
   "pytorch",
   "scikitlearn",
 
-  "canva",
   "github",
   "postman",
   "selenium",

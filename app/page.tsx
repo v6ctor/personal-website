@@ -13,18 +13,19 @@ import { ConfettiButton } from "@/components/magicui/confetti";
 const BLUR_FADE_DELAY = 0.04;
 
 const DATA = {
-  description: "I’m a software engineer living in Inglewood, California. \
-  I enjoy automating the boring stuff and using tech to make life a little easier, for myself and others.",
+  description: "I'm a recent CS grad based in Inglewood, California. I'm open to new opportunities in software engineering, data analytics, IT, and AI.",
   avatarUrl: "https://i.imgur.com/dxWNjWk.jpeg",
   name: "Victor Sumano Arango",
   initials: "VSA",
-  summary: "I&apos;m a first-gen college grad class of 2025 from Oaxaca, Mexico, raised in Inglewood, California.\
-  As a DACA recipient from a low-income, undocumented family, I learned early on how to adapt and problem-solve, whether it was navigating school with\
-  limited guidance or finding ways to contribute financially at a young age. Those challenges not only taught me resilience but also shaped the\
-  persistence and creativity I now bring into my work as a software dev!\
-  I recently graduated from Swarthmore with a CS and Stats degree, [where I worked across IT, teaching, and research](/#work-experience).\
-  Now, [I run a business that combines market analytics with custom tools I built in Python and Go](/#tech-stack).\
-  Outside of work, I&apos;m a big horror fan. Check out my letterboxd in the dock below!"
+  summary: `I recently graduated from **Swarthmore College** with a degree in Computer Science and Statistics, [where I worked across IT, teaching, and research](/#work-experience). Now I [run a Pokemon business](/#tech-stack) where I use custom tools I've built in Python and Go to help collectors beat online scalpers.
+
+&nbsp;
+
+**A little more about myself**: I'm a first-gen college grad from Oaxaca, Mexico, raised in Inglewood, California. Growing up as a DACA recipient taught me how to adapt and problem-solve—skills that now fuel my work as a developer.
+
+&nbsp;
+
+Outside of code, I'm a horror movie enthusiast. Check out my Letterboxd in the dock below! I also enjoy cooking and love to cooking tutorials on YouTube.`
 }
 
 export default function Homepage() {
@@ -102,8 +103,8 @@ export default function Homepage() {
           </div>
         </div>
       </section>
-      <section id="projects">
-        <div className="space-y-12 w-full py-12">
+      <section id="projects" className="w-screen relative left-1/2 right-1/2 -mx-[50vw] px-6">
+        <div className="space-y-12 w-full py-12 max-w-6xl mx-auto">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -114,8 +115,7 @@ export default function Homepage() {
                   These are some of the projects I&apos;ve worked on!
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I love building tools and software that solve problems. So, I&apos;ve developed CLI automation software, CRUD websites, and 
-                  ML tools.
+                  From e-commerce automation to machine learning, I build software that makes life easier.
                 </p>
               </div>
             </div>
